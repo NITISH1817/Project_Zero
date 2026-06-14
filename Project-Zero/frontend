@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project Zero</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background:#f5f7fa;
+            margin:0;
+            padding:0;
+        }
+
+        header{
+            background:#111827;
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+
+        .container{
+            width:80%;
+            margin:auto;
+            padding:20px;
+        }
+
+        .card{
+            background:white;
+            padding:20px;
+            margin:15px 0;
+            border-radius:10px;
+            box-shadow:0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        h2{
+            color:#111827;
+        }
+
+        .problem{
+            padding:10px;
+            border-bottom:1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Project Zero</h1>
+    <p>Discover Problems Worth Solving</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Mission</h2>
+        <p>
+            Project Zero helps innovators discover real-world
+            problems before building solutions.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Trending Problems</h2>
+
+        <div class="problem">
+            Finding project teammates
+        </div>
+
+        <div class="problem">
+            Internship information is scattered
+        </div>
+
+        <div class="problem">
+            Hostel food wastage
+        </div>
+
+        <div class="problem">
+            Lack of mentorship opportunities
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
